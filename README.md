@@ -20,10 +20,10 @@ The Github Repository can be found here: https://github.com/annalisedev/employee
 Find a video demonstrating a walkthrough of the application here: https://drive.google.com/file/d/1L4As3OnK-_bpXsiZKVQPTUVu3hrPyQ3N/view 
 
 A screenshot of the application can be found in assets: <br>
-![ScreenshotofApplication](./assets/ScreenshotofApplication.png)
+![ScreenshotofApplication](./Assets/ScreenshotofApplication.png)
 
 A gif of the walkthrough can be found in assets: <br>
-![Employee Tracker Demo](./assets/Employee%20Tracker%20Demo.gif)
+![Employee Tracker Demo](./Assets/Employee%20Tracker%20Demo.gif)
 
 ## Support
 
