@@ -60,7 +60,7 @@ class Questions {
            this.showMainMenu();
         });
     }
-
+    //view departments and format into table
     viewAllDepartments() {
         this.dataOps.getAllDepartments(function (err, departments) {
           if (err) {
@@ -78,7 +78,7 @@ class Questions {
           this.showMainMenu(); 
         }.bind(this)); 
     }
-
+    //view roles and format into table
     viewAllRoles() {
         this.dataOps.getAllRoles(function (err, roles) {
             if (err) {
@@ -96,7 +96,7 @@ class Questions {
             this.showMainMenu(); 
         }.bind(this)); 
     }
-    
+    //view employees and format into table
     viewAllEmployees() {
         this.dataOps.getAllEmployees(function (err, employees) {
             if (err) {
@@ -143,11 +143,11 @@ class Questions {
     }
 
     addRole() {
-        // Get departments from the database using DataOps.getAllDepartments()
+        // Get departments from the database so these can be displayed when adding a role
         this.dataOps.getAllDepartments(function (err, departments) {
             if (err) {
             console.error("An error occurred:", err);
-            this.showMainMenu(); // Repeat the prompt
+            this.showMainMenu();
             return;
             }
     
@@ -196,7 +196,7 @@ class Questions {
     }
 
     addEmployee() {
-        // Get departments from the database using DataOps.getAllDepartments()
+        // Get roles so that these choices can be displayed when adding employee
         this.dataOps.getAllRoles((err, roles) => {
             if (err) {
                 console.error("An error occurred:", err);

@@ -14,7 +14,7 @@ const db = mysql.createConnection(
     console.log(`Connected to the companyinfo_db database.`)
   );
 
-
+//commands to query the database and return the right information
 class DataOps {
     getAllDepartments(callback) {
         db.query('SELECT * FROM department', function (err, results) {
